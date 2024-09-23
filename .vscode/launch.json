@@ -1,0 +1,93 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Game (Stop on Entry)",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/bin/game",
+      "args": ["--debug", "--log-level", "verbose"],
+      "cwd": "${workspaceFolder}/",
+      "preLaunchTask": "clean-and-build-project",
+      "stopOnEntry": true,
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "name": "Debug Game GUI (Stop on Entry)",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/bin/game",
+      "args": ["-g", "--debug", "--log-level", "verbose"],
+      "cwd": "${workspaceFolder}/",
+      "preLaunchTask": "clean-and-build-project",
+      "stopOnEntry": true,
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "name": "Debug Game",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/bin/game",
+      "args": ["-l", "--debug", "--log-level", "verbose"],
+      "cwd": "${workspaceFolder}/",
+      "preLaunchTask": "clean-and-build-project",
+      "stopOnEntry": false,
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "name": "Debug Game GUI",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/bin/game",
+      "args": ["-g", "--debug", "--log-level", "verbose"],
+      "cwd": "${workspaceFolder}/",
+      "preLaunchTask": "clean-and-build-project",
+      "stopOnEntry": false,
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "name": "Debug Game Client (Stop on Entry)",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/bin/game",
+      "args": ["--client", "--debug", "--log-level", "verbose"],
+      "cwd": "${workspaceFolder}/",
+      "preLaunchTask": "clean-and-build-project",
+      "stopOnEntry": true,
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "name": "Debug Game Server (Stop on Entry)",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/bin/game",
+      "args": ["--server", "--debug", "--log-level", "verbose"],
+      "cwd": "${workspaceFolder}/",
+      "preLaunchTask": "clean-and-build-project",
+      "stopOnEntry": true,
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "name": "Debug Game Client",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/bin/game",
+      "args": ["--client", "--debug", "--log-level", "verbose"],
+      "cwd": "${workspaceFolder}/",
+      "preLaunchTask": "clean-and-build-project",
+      "stopOnEntry": false,
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "name": "Debug Game Server",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/bin/game",
+      "args": ["--server", "--debug", "--log-level", "verbose"],
+      "cwd": "${workspaceFolder}/",
+      "preLaunchTask": "clean-and-build-project",
+      "stopOnEntry": false,
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}
