@@ -9,7 +9,7 @@
 ![LLDB](https://img.shields.io/badge/LLDB-10.0.0-orange.svg)
 
 <p align="center">
-  <img src="project/docs/img/banner.png" alt="Game banner" style="width: 100%; max-width: 100%; height: auto;" />
+  <img src="docs/img/banner.png" alt="Game banner" style="width: 100%; max-width: 100%; height: auto;" />
 </p>
 
 ## 📖 Table of Contents
@@ -43,8 +43,8 @@
 - 🎯 **Goal**: The player who destroys the **last square loses**.
 
 <p align="center">
-  <img src="project/docs/img/gui1.png" alt="Game screen 1" width="45%" />
-  <img src="project/docs/img/gui2.png" alt="Game screen 2" width="45%" />
+  <img src="docs/img/gui1.png" alt="Game screen 1" width="45%" />
+  <img src="docs/img/gui2.png" alt="Game screen 2" width="45%" />
 </p>
 
 ## 📋 Specifications 
@@ -166,13 +166,13 @@ This project is created and maintained by:
 
 <table>
   <tr>
-    <td><a href="mailto:samuel.rolli@uha.fr"><img src="project/docs/img/user3.png" alt="Samuel ROLLI" width="100" /></a></td>
-    <td><a href="mailto:elise.beauvy@uha.fr"><img src="project/docs/img/user7.png" alt="Elise BEAUVY" width="100" /></a></td>
-    <td><a href="mailto:martin.baratte@uha.fr"><img src="project/docs/img/user5.png" alt="Martin BARATTE" width="100" /></a></td>
-    <td><a href="mailto:basile.le-thiec@uha.fr"><img src="project/docs/img/user.png" alt="Basile LE THIEC" width="100" /></a></td>
-    <td><a href="mailto:louay.ben-ltoufa@uha.fr"><img src="project/docs/img/user4.png" alt="Louay BEN LTOUFA" width="100" /></a></td>
-    <td><a href="mailto:sakithyan.ragavan@uha.fr"><img src="project/docs/img/user2.png" alt="Sakithyan RAGAVAN" width="100" /></a></td>
-    <td><a href="mailto:mehmet.bozkurt@uha.fr"><img src="project/docs/img/user6.png" alt="Mehmet BOZKURT" width="100" /></a></td>
+    <td><a href="mailto:samuel.rolli@uha.fr"><img src="docs/img/user3.png" alt="Samuel ROLLI" width="100" /></a></td>
+    <td><a href="mailto:elise.beauvy@uha.fr"><img src="docs/img/user7.png" alt="Elise BEAUVY" width="100" /></a></td>
+    <td><a href="mailto:martin.baratte@uha.fr"><img src="docs/img/user5.png" alt="Martin BARATTE" width="100" /></a></td>
+    <td><a href="mailto:basile.le-thiec@uha.fr"><img src="docs/img/user.png" alt="Basile LE THIEC" width="100" /></a></td>
+    <td><a href="mailto:louay.ben-ltoufa@uha.fr"><img src="docs/img/user4.png" alt="Louay BEN LTOUFA" width="100" /></a></td>
+    <td><a href="mailto:sakithyan.ragavan@uha.fr"><img src="docs/img/user2.png" alt="Sakithyan RAGAVAN" width="100" /></a></td>
+    <td><a href="mailto:mehmet.bozkurt@uha.fr"><img src="docs/img/user6.png" alt="Mehmet BOZKURT" width="100" /></a></td>
   </tr>
   <tr>
     <td><a href="mailto:samuel.rolli@uha.fr">Samuel ROLLI</a></td>
