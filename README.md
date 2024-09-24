@@ -100,16 +100,16 @@ You have multiple options when it comes to running the game:
 
 ```bash
 # Run locally
-./chomp -l
+./game -l
 
 # Run locally with GUI
-./chomp -l -g
+./game -l -g
 
 # Run locally with AI in terminal mode
-./chomp -l -t -ia
+./game -l -t -ia
 
 # Run locally with GUI and AI
-./chomp -l -ia
+./game -l -ia
 ```
 
 ### 🌐 Run with Network 
@@ -124,16 +124,16 @@ You have multiple options when it comes to running the game:
 
 ```bash
 # Run client in the terminal
-./chomp -c <server_ip>:<port> -t
+./game -c <server_ip>:<port> -t
 
 # Run client with GUI
-./chomp -c <server_ip>:<port> 
+./game -c <server_ip>:<port> 
 
 # Run client with AI in the terminal
-./chomp -c <server_ip>:<port> -t -ia
+./game -c <server_ip>:<port> -t -ia
 
 # Run client with GUI and AI
-./chomp -c <server_ip>:<port> -ia
+./game -c <server_ip>:<port> -ia
 ```
 
 #### 🗄️ Server 
@@ -147,16 +147,16 @@ You have multiple options when it comes to running the game:
 
 ```bash
 # Run server in the terminal
-./chomp -s <port> -t
+./game -s <port> -t
 
 # Run server with GUI
-./chomp -s <port> 
+./game -s <port> 
 
 # Run server with AI in the terminal
-./chomp -s <port> -ia -t
+./game -s <port> -ia -t
 
 # Run server with GUI and AI
-./chomp -s <port> -ia
+./game -s <port> -ia
 ```
 
 > **Note:** Combine multiple arguments to tailor your game experience.
